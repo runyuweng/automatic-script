@@ -1,0 +1,24 @@
+{
+  "name": "automatic-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"geckodriver --port 4444\" \"node --experimental-modules ./src/index\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wengwengweng/automatic-script.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wengwengweng/automatic-script/issues"
+  },
+  "homepage": "https://github.com/wengwengweng/automatic-script#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "webdriver": "^5.4.15"
+  }
+}
